@@ -1,0 +1,164 @@
+{
+  "scenario_generation_cost_usd": 0.002,
+  "repeats": 300,
+  "modes": {
+    "always_generate": {
+      "correct": 12,
+      "total": 14,
+      "generation_units": 14,
+      "scenario_cost_per_1000_usd": 2.0,
+      "local_p95_microseconds": 11.17,
+      "cases": [
+        {
+          "query": "Sampletown PIN code",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Northbridge library hours",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "When does Northbridge Library open?",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Postal code of Sampletown please",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Compare Atlas vs Nova on battery",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Compare Nova and Atlas RAM",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Harbor bus fare",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Harbor bus fare today",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "What cloud region runs Ledger?",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Riverside Museum ticket price",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Current Riverside Museum ticket price",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Today's space launch weather",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Compare Atlas versus an unknown model",
+          "route": "synthesis",
+          "correct": false
+        },
+        {
+          "query": "What battery life does Nova have?",
+          "route": "synthesis",
+          "correct": false
+        }
+      ]
+    },
+    "adaptive": {
+      "correct": 14,
+      "total": 14,
+      "generation_units": 2,
+      "scenario_cost_per_1000_usd": 0.2857,
+      "local_p95_microseconds": 13.25,
+      "cases": [
+        {
+          "query": "Sampletown PIN code",
+          "route": "cache",
+          "correct": true
+        },
+        {
+          "query": "Northbridge library hours",
+          "route": "cache",
+          "correct": true
+        },
+        {
+          "query": "When does Northbridge Library open?",
+          "route": "retrieval",
+          "correct": true
+        },
+        {
+          "query": "Postal code of Sampletown please",
+          "route": "retrieval",
+          "correct": true
+        },
+        {
+          "query": "Compare Atlas vs Nova on battery",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Compare Nova and Atlas RAM",
+          "route": "synthesis",
+          "correct": true
+        },
+        {
+          "query": "Harbor bus fare",
+          "route": "retrieval",
+          "correct": true
+        },
+        {
+          "query": "Harbor bus fare today",
+          "route": "retrieval",
+          "correct": true
+        },
+        {
+          "query": "What cloud region runs Ledger?",
+          "route": "retrieval",
+          "correct": true
+        },
+        {
+          "query": "Riverside Museum ticket price",
+          "route": "retrieval",
+          "correct": true
+        },
+        {
+          "query": "Current Riverside Museum ticket price",
+          "route": "abstain",
+          "correct": true
+        },
+        {
+          "query": "Today's space launch weather",
+          "route": "abstain",
+          "correct": true
+        },
+        {
+          "query": "Compare Atlas versus an unknown model",
+          "route": "abstain",
+          "correct": true
+        },
+        {
+          "query": "What battery life does Nova have?",
+          "route": "retrieval",
+          "correct": true
+        }
+      ]
+    }
+  }
+}
